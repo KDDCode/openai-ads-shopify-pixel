@@ -1,0 +1,18 @@
+{
+  "name": "openai-ads-shopify-pixel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OpenAI Ads Measurement Pixel as a Shopify custom pixel (Customer Events)",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "terser": "^5.36.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
